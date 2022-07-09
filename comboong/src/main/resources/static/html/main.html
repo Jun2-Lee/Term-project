@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+</head>
+  <body>
+      <div class="container">
+          <div class="row">
+              <div class="offset-4 col-md-4"><h1 style="text-align:center;">제목</h1></div>
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button" onclick="location.href='log_in.html'">Log in</button>
+              <button class="btn btn-primary" type="button" onclick="location.href='register.html'">회원가입</button>
+          </div>
+          <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Gallery</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          <div class="row">
+              <label for="picture">갤러리</label>
+              <div class="col-md-6"><a href="log_in.html" id="picture"><img src="/img/kakao.jpg" width="100%" height="100%"/></a></div>
+              <div class="col-md-6"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+              <div class="col-md-6"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+              <div class="col-md-6"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+          </div>
+          <div class="row">
+              <div class="col-md-2"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+              <div class="col-md-2"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+              <div class="col-md-2"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+              <div class="col-md-2"><img src="/img/kakao.jpg" width="100%" height="100%"/></div>
+          </div>
+      </div>
+  </body>
+</html>
